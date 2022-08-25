@@ -3,10 +3,10 @@
 
         private static $instance = null;
 
-        private $user = DBUSER;
-        private $pass = DBPWD;
-        private $dbName = DBNAME;
-        private $dbHost = DBHOST;
+        private $user = "root";
+        private $pass = "mysql";
+        private $dbName = "contabilidaddb";
+        private $dbHost = "localhost";
 
         public static function getInstance() {
         if (!self::$instance instanceof self) {
